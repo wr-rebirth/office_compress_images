@@ -80,4 +80,4 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("使用方法: python function.py <文件路径>")
         sys.exit(1)
-    compress(sys.argv[1].strip('"').replace("\\", "/"))
+    compress(sys.argv[1])
